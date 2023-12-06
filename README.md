@@ -1,5 +1,5 @@
  
-<h1 align="center">Exodus Website Enhancement</h1>
+<h1 align="center">Travelopia Assignment <span> (Exodus Website Enhancement) </span> </h1>
  
  
 
