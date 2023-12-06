@@ -1,15 +1,7 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Travelopia" />
-
-  &#xa0;
-
-  <!-- <a href="https://travelopia.netlify.app">Demo</a> -->
-</div>
-
+ 
 <h1 align="center">Exodus Website Enhancement</h1>
  
-
-<hr> -->
+ 
 
  
 <br>
