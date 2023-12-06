@@ -1,0 +1,91 @@
+
+// index.js
+
+// function showMore(dotContent, hiddenContent, imgUrl, text) {
+//     if (dotContent.style.display === "none") {
+//       dotContent.style.display = "inline";
+//       hiddenContent.style.display = "none";
+//       text.innerText = "Show More";
+//       imgUrl.src = "./Images/downArrow.png";
+//     } else {
+//       dotContent.style.display = "none";
+//       hiddenContent.style.display = "inline";
+//       imgUrl.src = "./Images/upArrow.png";
+//       text.innerText = "Show Less";
+//     }
+//   }
+  
+//   function handleShowMore() {
+//     const dotContent = document.getElementById("dot-content");
+//     const hiddenContent = document.getElementById("hidden-content");
+//     const imgUrl = document.getElementById("show-more-img");
+//     const text = document.getElementById("show-more-text");
+  
+//     showMore(dotContent, hiddenContent, imgUrl, text);
+//   }
+  
+  // Exporting for testing purposes
+//   if (typeof module !== 'undefined' && module.exports) {
+//     module.exports = {
+//       handleShowMore,
+//       showMore,
+//     };
+//   }
+
+
+
+
+
+
+
+
+
+
+test --> 
+
+// // index.test.js
+
+// const { showMore } = require('./index');
+
+// // Assuming you have a Jest setup in your project
+
+// test('Page loads properly for the first time', () => {
+//     // Load your HTML file or content
+//     document.body.innerHTML = require('./index.html');
+  
+//     // Check if the title is correct
+//     const titleElement = document.querySelector('title');
+//     expect(titleElement.textContent).toBe(
+//       'My App Armenia Tours | Armenia Trips | Armenia Adventure Holidays | Exodus'
+//     );
+  
+//     // Check if the main header is present
+//     const headerElement = document.querySelector('h1.hero_title');
+//     expect(headerElement.textContent).toBe('Armenia Tours');
+  
+//     // Check if the main image is present with a valid source
+//     const mainImageElement = document.querySelector('.main-img-div img');
+//     expect(mainImageElement).toBeTruthy();
+//     expect(mainImageElement.src).toContain('armenia-2.jpg');
+    
+//     // Add more assertions as needed
+//   });
+  
+
+// test('showMore function should toggle visibility correctly', () => {
+//   // Mocking the necessary elements
+//   const dotContent = { style: { display: 'none' } };
+//   const hiddenContent = { style: { display: 'inline' } };
+//   const imgUrl = { src: '' };
+//   const text = { innerText: '' };
+
+//   showMore(dotContent, hiddenContent, imgUrl, text);
+
+//   expect(dotContent.style.display).toBe('inline');
+//   expect(hiddenContent.style.display).toBe('none');
+//   expect(text.innerText).toBe('Show More');
+//   expect(imgUrl.src).toBe('./Images/downArrow.png');
+// });
+
+
+  
